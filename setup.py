@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="brainhance",
-    version="0.0.1",
+    version="0.0.2",
     author="Lucas da Costa Campos",
     author_email="lqccampos@gmail.com",
     description="Command-line tool to perform MRI upsampling via SRGANS",
