@@ -1,0 +1,9 @@
+include brainhance/saved_models/1000BRAINS/*
+include brainhance/saved_models/Brain_Tumor/*
+include brainhance/saved_models/dHCP/*
+include brainhance/saved_models/Generalist/*
+
+include brainhance/saved_models/1000BRAINS/*/*
+include brainhance/saved_models/Brain_Tumor/*/*
+include brainhance/saved_models/dHCP/*/*
+include brainhance/saved_models/Generalist/*/*
