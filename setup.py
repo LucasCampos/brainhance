@@ -26,7 +26,8 @@ setuptools.setup(
         "numpy",
         "nibabel",
         "multiprocess",
-        "tensorflow-gpu >= 2.0, <= 2.8"
+        "protobuf==3.14.0",
+        "tensorflow-gpu==2.4.0"
     ],
     entry_points={
         'console_scripts':[
