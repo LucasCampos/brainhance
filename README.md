@@ -1,4 +1,4 @@
-# Braingan3d Software Release
+# Brainhance
 
 
 ## Usage
@@ -6,7 +6,7 @@
 The usage of this software is relatively simple,
 
 ```bash
-brainsgan input_file output_file
+brainhance input_file output_file
 ```
 
 The `input_file` and `output_file` files can be either path to NIFTI images
@@ -18,7 +18,7 @@ the GPU over and over again.
 It is possible to choose the network used with the `-n/--network` flag. E.g.,
 
 ```bash
-brainsgan LR_scan.nii.gz SR_scan.nii.gz --network dHCP
+brainhance LR_scan.nii.gz SR_scan.nii.gz --network dHCP
 ```
 
 ## Recommended settings
@@ -28,7 +28,7 @@ multi-GPU system, it is recommended to add the `CUDA_VISIBLE_DEVICES` before
 running the code
 
 ```bash
-CUDA_VISIBLE_DEVICES=<GPU_to_be_used> brainsgan input_file output_file
+CUDA_VISIBLE_DEVICES=<GPU_to_be_used> brainhance input_file output_file
 ```
 
 It is also possible to use only the CPU by leaving `GPU_to_be_used` empty.
